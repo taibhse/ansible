@@ -1,7 +1,7 @@
 # ansible
 Playing about with ansible configuration.
 
-# Bassic how to run it locally:
+# Basic how to run it locally:
 ansible all -i 'localhost,' -c local -m ping
 #-i localhost, runs it locally instead of on an inventory. 
 #-c local, connects locally instead of trying to ssh to a remote server.
@@ -11,4 +11,17 @@ ansible all -i 'localhost,' -c local -m ping
 #localhost ansible_connection=local
 #This would allow us to run the same as above with:
 ansible all -i /tmp/my-inventory -m ping
+
+#expected inventory seems to be /etc/ansible/hosts
+ansible localhost -m ping
+
+
+
+#To Do
+Make a user
+ or check if it exists
+Mumble
+Dotfiles
+
+
 
