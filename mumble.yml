@@ -1,0 +1,10 @@
+---
+
+- name: Setup murmer on this server
+  hosts: localhost
+  tasks:
+    - name: Install murmer server
+      apt: 
+        name: mumble-server
+        update_cache: yes
+

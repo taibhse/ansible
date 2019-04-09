@@ -15,7 +15,8 @@ ansible all -i /tmp/my-inventory -m ping
 #expected inventory seems to be /etc/ansible/hosts
 ansible localhost -m ping
 
-
+#to run:
+ansible-playbook playbook.yml
 
 #To Do
 Mumble
