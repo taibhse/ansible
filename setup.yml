@@ -1,11 +1,12 @@
 ---
 
 - name: Setup Dotfiles on this server
+  hosts: localhost
   tasks:
     - name: Setup dotfiles
-    - git:
-      repo: git@github.com:taibhse/dotfiles.git 
-      dest: /home/chris/dotfiles
+      git:
+        repo: git@github.com:taibhse/dotfiles.git 
+        dest: /home/chris/dotfiles
 
 
 
