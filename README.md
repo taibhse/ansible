@@ -18,10 +18,7 @@ ansible localhost -m ping
 
 
 #To Do
-Make a user
- or check if it exists
 Mumble
-Dotfiles
 
 
 
