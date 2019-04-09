@@ -10,7 +10,3 @@
     - name: Run the symlink script
       command: /home/chris/dotfiles/makesymlinks.sh
 
-
-
-
-
