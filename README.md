@@ -19,7 +19,9 @@ ansible localhost -m ping
 ansible-playbook playbook.yml
 
 #To Do
-Mumble
+
+Setup for various things
+install htop, vim, git, tmux
 
 
-
+blog setup
