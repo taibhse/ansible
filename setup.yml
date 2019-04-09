@@ -1,0 +1,13 @@
+---
+
+- name: Setup Dotfiles on this server
+  tasks:
+    - name: Setup dotfiles
+    - git:
+      repo: git@github.com:taibhse/dotfiles.git 
+      dest: /home/chris/dotfiles
+
+
+
+
+
