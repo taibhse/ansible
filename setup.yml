@@ -3,10 +3,12 @@
 - name: Setup Dotfiles on this server
   hosts: localhost
   tasks:
-    - name: Setup dotfiles
+    - name: Download dotfiles repo
       git:
         repo: git@github.com:taibhse/dotfiles.git 
         dest: /home/chris/dotfiles
+    - name: Run the symlink script
+      command: /home/chris/dotfiles/makesymlinks.sh
 
 
 
