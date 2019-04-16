@@ -1,0 +1,10 @@
+---
+
+- name: Setup Django Tech Blog on this server
+  hosts: localhost
+  tasks:
+    - name: Download blog git repo
+      git:
+        repo: git@github.com:taibhse/blog.git 
+        dest: /home/chris/sites/blog.taibhse.eu/
+
